@@ -1,0 +1,27 @@
+body {
+	color: #002204;
+	padding: 1%;
+}
+
+a {
+	color: #500400;
+	text-decoration: none;
+	padding-left: 3%;
+}
+
+a:hover {
+	color: #003E08;
+	text-decoration: underline;
+}
+
+.contents{
+	max-width: 1000px;
+}
+
+.navigation {
+	font-size: 20px;
+}
+
+.details{
+	display: none;
+}
