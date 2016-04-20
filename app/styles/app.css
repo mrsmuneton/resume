@@ -19,9 +19,35 @@ a:hover {
 }
 
 .navigation {
+
+	padding-left: 20%;
+	padding-right: 30%;
 	font-size: 20px;
 }
 
+li {
+	width: 20%;
+	float: left;
+	list-style-type: none;
+	padding-bottom: 1%;
+}
+
 .details{
-	/*display: none;*/
+	width: 75%;
+	float: right;
+	padding-bottom: 1%;
+}
+
+.container-bottom{
+	padding-top: 15%;
+}
+
+h4{
+	padding-left: 50%;
+	padding-right: 50%;
+}
+
+h2{
+	padding-left:30%;
+	padding-right: 30%;
 }
