@@ -8,6 +8,7 @@ module.exports = function(environment) {
     firebase: 'https://rays-resume.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
+    ENABLE_DS_FILTER : true,
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
