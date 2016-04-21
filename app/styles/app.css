@@ -1,64 +1,54 @@
-body {
-	color: #002204;
-	padding: 1%;
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-a {
-	color: #500400;
-	text-decoration: none;
-	padding-left: 3%;
+body { margin: 0; }
+
+.columnsContainer, footer, header { position: relative; margin: .5em; }
+
+.leftColumn, .rightColumn, footer, header {  border: 1px solid  #ccc; padding: 1.25em; }
+
+.leftColumn { margin-bottom: .5em; }
+
+.nav {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-a:hover {
-	color: #003E08;
-	text-decoration: underline;
+.nav > li,
+.nav > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
 }
 
-.contents{
-	max-width: 1000px;
+.inline-items {
+  margin-top: 0;
 }
 
-.navigation {
-
-	padding-left: 20%;
-	padding-right: 30%;
-	font-size: 20px;
+.inline-items li {
+  margin-left: 0;
+  border-left: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-li {
-	width: 20%;
-	float: left;
-	list-style-type: none;
-	padding-bottom: 1%;
+.inline-items li:first-child {
+  margin-left: 0;
+  border: none;
+  padding-left: 0;
+  padding-right: 10px;
 }
 
-.container-bottom {
-	padding-top: 35%;
+.inline-items li:last-child {
+  padding-right: 0;
 }
 
-.container{
-	float: left;
-	display: inline;
-}
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 49.5em; }
 
-h4{
-	padding-left: 50%;
-	padding-right: 50%;
-}
-
-h2{
-	padding-left:30%;
-	padding-right: 30%;
-}
-
-.left-side {
-	width: 20%;
-}
-
-.skill {
-	padding-bottom: 1%;
-}
-
-.right-side {
-	width: 70%;
+	.rightColumn { position: absolute; top: 0; right: 0; width: 49.5em; }   
 }
