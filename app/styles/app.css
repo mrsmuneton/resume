@@ -32,14 +32,13 @@ li {
 	padding-bottom: 1%;
 }
 
-.details{
-	width: 75%;
-	float: right;
-	padding-bottom: 1%;
+.container-bottom {
+	padding-top: 35%;
 }
 
-.container-bottom{
-	padding-top: 15%;
+.container{
+	float: left;
+	display: inline;
 }
 
 h4{
@@ -50,4 +49,16 @@ h4{
 h2{
 	padding-left:30%;
 	padding-right: 30%;
+}
+
+.left-side {
+	width: 20%;
+}
+
+.skill {
+	padding-bottom: 1%;
+}
+
+.right-side {
+	width: 70%;
 }

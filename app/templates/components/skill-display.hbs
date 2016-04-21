@@ -1,7 +1,8 @@
 {{yield}}
-    <ul>
-    {{#each skills as |skill|}}
-      <li>{{skill.name}}</li>
-	  <div class="details" name="toggle-{{skill.name}}">{{skill.description}}</div>
-    {{/each}}
-    </ul>
+{{#each skills as |skill|}}
+  <div class="left-side">
+  	<div class="skill" {{action "click" skill.description}}>{{skill.name}}</div>
+  </div>
+{{/each}}
+  <div class="right-side">
+  </div>
