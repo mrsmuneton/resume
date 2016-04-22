@@ -18,6 +18,7 @@ body {
   margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
+  text-align: center;
 }
 
 .nav > li,
@@ -81,9 +82,10 @@ h2, footer p{
   color: #2F333F;
   padding-left: 1.25em;
   margin-bottom: -.5em;
+  text-align: center;
 }
 
 .container{
-  margin-left: 2em;
-  margin-right: 3em;
+  margin-left: 22em;
+  margin-right: 22em;
 }
