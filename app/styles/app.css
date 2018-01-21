@@ -2,9 +2,10 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-body { 
-  margin: 0; 
-  background-color: #d3d3d3;
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: Helvetica;
 }
 
 .columnsContainer, footer, header { position: relative; margin: .5em; }
@@ -12,6 +13,10 @@ body {
 .leftColumn, .rightColumn, footer, header {  padding: 1.25em; }
 
 .leftColumn { margin-bottom: .5em; }
+
+h2 { color: #2F333F}
+
+.position { font-size: .9em; font-weight: normal; font-style: italic;}
 
 .nav {
   list-style: none;
@@ -25,7 +30,7 @@ body {
 .nav > li > a {
   display: inline-block;
   *display: inline;
-  zoom: 1;  
+  zoom: 1;
   font-size: 1.2em;
 }
 
@@ -64,7 +69,7 @@ a:hover {
 @media screen and (min-width: 47.5em ) {
   .leftColumn { margin-right: 50.5em; }
 
-	.rightColumn { position: absolute; top: 0; right: 0; width: 50.5em; }   
+	.rightColumn { position: absolute; top: 0; right: 0; width: 50.5em; }
 }
 
 .skill {
