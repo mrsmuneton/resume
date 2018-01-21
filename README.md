@@ -1,2 +1,6 @@
-# Resume
-Exploration of the latest version of Ember in the form of my resume.
+#Simple Ember app
+
+####Important commands:
+* `ember build`
+* `ember serve`
+* `firebase deploy`
