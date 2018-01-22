@@ -18,7 +18,7 @@ footer, header {
 }
 
 footer {
-  padding-top: 1em;
+  padding: 1em 0;
   clear: both;
   display: block;
 }
@@ -47,12 +47,14 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #4E5C72;
+  color: #303030;
+  font-weight: 400;
 }
 
 a:hover {
   text-decoration: underline;
   color: #343F3E;
+  font-weight: 400;
 }
 
 .inline-items {
@@ -93,7 +95,8 @@ a:hover {
 
 .skill-name {
   font-size: 1.2em;
-  font-weight: 100;
+  font-weight: normal;
+  text-decoration: none;
   float: left;
   width: 35%;
 }
@@ -107,8 +110,13 @@ a:hover {
   float: right;
   text-align: left;
   width: 65%;
+  font-weight: normal;
 }
 
+.clear {
+  clear: both;
+  display: inline;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 700px ) {
