@@ -17,6 +17,12 @@ footer, header {
   position: relative;
 }
 
+footer {
+  padding-top: 1em;
+  clear: both;
+  display: block;
+}
+
 h2 {
   color: #2F333F
 }
@@ -112,6 +118,7 @@ a:hover {
     display: block;
   }
   .skill-name, .skill-detail {
+    color: #000;
     clear: both;
     display: inline;
   }
