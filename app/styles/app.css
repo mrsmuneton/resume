@@ -8,13 +8,18 @@ body {
   font-family: Helvetica;
 }
 
-.columnsContainer, footer, header { position: relative; margin: .5em; }
+h2, footer p{
+  color: #2F333F;
+  text-align: center;
+}
 
-.leftColumn, .rightColumn, footer, header {  padding: 1.25em; }
+footer, header {
+  position: relative;
+}
 
-.leftColumn { margin-bottom: .5em; }
-
-h2 { color: #2F333F}
+h2 {
+  color: #2F333F
+}
 
 .position { font-size: .9em; font-weight: normal; font-style: italic;}
 
@@ -65,32 +70,49 @@ a:hover {
   padding-right: 0;
 }
 
-/* MEDIA QUERIES */
-@media screen and (min-width: 47.5em ) {
-  .leftColumn { margin-right: 50.5em; }
-
-	.rightColumn { position: absolute; top: 0; right: 0; width: 50.5em; }
+.skill-wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skill {
-  text-align: right;
   font-size: 1.1em;
-  margin-bottom: .5em;
+  font-weight: normal;
+  clear: both;
+  margin: 3.3em;
+  padding: .3em;
+  border-top: 1px solid #C0C0C0;
 }
 
-.skill:hover {
+.skill-name {
+  font-size: 1.2em;
+  font-weight: 100;
+  float: left;
+  width: 35%;
+}
+
+.skill-name:hover {
   text-decoration: underline;
   color: #343F3E;
 }
 
-h2, footer p{
-  color: #2F333F;
-  padding-left: 1.25em;
-  margin-bottom: -.5em;
-  text-align: center;
+.skill-detail {
+  float: right;
+  text-align: left;
+  width: 65%;
 }
 
-.container{
-  margin-left: 22em;
-  margin-right: 22em;
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 700px ) {
+  .skill-wrapper {
+    width: 320px;
+    clear: both;
+    display: block;
+  }
+  .skill-name, .skill-detail {
+    clear: both;
+    display: inline;
+  }
 }

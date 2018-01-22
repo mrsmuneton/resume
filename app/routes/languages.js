@@ -2,8 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.filter('skill', {}, function(skill) {
+    var skills = this.store.filter('skill', {}, function(skill) {
 	  return skill.get('type') === 'language';
     });
+		return skills;
   }
 });

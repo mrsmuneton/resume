@@ -1,10 +1,10 @@
 {{yield}}
 
-	<div class="leftColumn">
+	<div class="skill-wrapper">
 		{{#each skills as |skill|}}
-			<div class="skill" {{action "click" skill.description}}>{{skill.name}}</div>
+			<div class="skill" {{action "click" skill}}>
+				<div class="skill-name" id="{{skill.id}}-n">{{skill.name}}</div>
+				<div class="skill-detail" id="{{skill.id}}-d">{{skill.description}}</div>
+			</div>
 		{{/each}}
-	</div>
-
-	<div class="rightColumn">
 	</div>
