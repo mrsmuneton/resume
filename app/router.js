@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('tech');
-  this.route('experience');
+  this.route('personality');
   this.route('person');
   this.route('languages');
   this.route('tools');

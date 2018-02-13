@@ -47,7 +47,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #303030;
+  color: #006400;
   font-weight: 400;
 }
 
@@ -76,6 +76,23 @@ a:hover {
 
 .inline-items li:last-child {
   padding-right: 0;
+}
+
+.personality {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.3em;
+}
+
+.personality .center {
+  font-style: italic;
+  text-align: center;
+  margin-right: 4em;
+}
+
+.personality li {
+  padding-top: .5em;
 }
 
 .skill-wrapper {
